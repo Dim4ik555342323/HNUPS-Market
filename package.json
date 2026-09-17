@@ -11,12 +11,7 @@
     "lint": "eslint .",
     "format": "prettier --write ."
   },
-  "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
-  "build": "vite build",
-  // ... інші скрипти
-}
+
   "overrides": {
     "rolldown": "1.2.1"
   },
